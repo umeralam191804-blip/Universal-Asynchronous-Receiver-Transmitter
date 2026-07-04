@@ -12,11 +12,23 @@ A parameterized UART (Universal Asynchronous Receiver/Transmitter) implementatio
 - Compatible with ModelSim/QuestaSim simulation
 
 ## Project Structure
-├── uart_tx.v          # UART Transmitter
-├── uart_rx.v          # UART Receiver
-├── baud_generator.v   # Baud Rate Generator
-├── uart_top.v         # Top-level module
-└── tb_uart.v          # Testbench
+
+```
+.
+├── rtl
+│   ├── uart_tx.v
+│   ├── uart_rx.v
+│   ├── baud_generator.v
+│   └── uart_top.v
+├── tb
+│   └── tb_uart.v
+├── docs
+│   ├── block_diagram.png
+│   └── waveform.png
+├── README.md
+├── LICENSE
+└── .gitignore
+```
 
 ## Applications
 - FPGA-based communication systems
